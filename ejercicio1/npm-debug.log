@@ -1,0 +1,79 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'connect-redis',
+1 verbose cli   '–save' ]
+2 info using npm@3.3.3
+3 info using node@v4.1.1
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData connect-redis
+8 silly fetchPackageMetaData –save
+9 silly fetchNamedPackageData connect-redis
+10 silly mapToRegistry name connect-redis
+11 silly mapToRegistry using default registry
+12 silly mapToRegistry registry https://registry.npmjs.org/
+13 silly mapToRegistry uri https://registry.npmjs.org/connect-redis
+14 silly fetchOtherPackageData –save
+15 silly cache add args [ '–save', null ]
+16 verbose cache add spec –save
+17 verbose request uri https://registry.npmjs.org/connect-redis
+18 verbose request no auth needed
+19 info attempt registry request try #1 at 18:02:11
+20 verbose request id dbb508d2b38b1d99
+21 http request GET https://registry.npmjs.org/connect-redis
+22 silly cache add parsed spec Result {
+22 silly cache add   raw: '–save',
+22 silly cache add   scope: null,
+22 silly cache add   name: null,
+22 silly cache add   rawSpec: '–save',
+22 silly cache add   spec: '/home/claudiainbytes/Documentos/ejerciciosnode/ejercicio1/–save',
+22 silly cache add   type: 'local' }
+23 error addLocal Could not install /home/claudiainbytes/Documentos/ejerciciosnode/ejercicio1/–save
+24 silly fetchPackageMetaData Error: ENOENT: no such file or directory, open '/home/claudiainbytes/Documentos/ejerciciosnode/ejercicio1/–save'
+24 silly fetchPackageMetaData     at Error (native)
+24 silly fetchPackageMetaData  error for –save { [Error: ENOENT: no such file or directory, open '/home/claudiainbytes/Documentos/ejerciciosnode/ejercicio1/–save']
+24 silly fetchPackageMetaData   errno: -2,
+24 silly fetchPackageMetaData   code: 'ENOENT',
+24 silly fetchPackageMetaData   syscall: 'open',
+24 silly fetchPackageMetaData   path: '/home/claudiainbytes/Documentos/ejerciciosnode/ejercicio1/–save' }
+25 http 200 https://registry.npmjs.org/connect-redis
+26 silly get cb [ 200,
+26 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+26 silly get     etag: '"HVDLNQZZVQXFETUQ4EW2CHK2"',
+26 silly get     'content-type': 'application/json',
+26 silly get     'cache-control': 'max-age=60',
+26 silly get     'content-length': '36032',
+26 silly get     'accept-ranges': 'bytes',
+26 silly get     date: 'Tue, 13 Oct 2015 23:02:12 GMT',
+26 silly get     via: '1.1 varnish',
+26 silly get     age: '0',
+26 silly get     connection: 'keep-alive',
+26 silly get     'x-served-by': 'cache-atl6234-ATL',
+26 silly get     'x-cache': 'MISS',
+26 silly get     'x-cache-hits': '0',
+26 silly get     'x-timer': 'S1444777331.971931,VS0,VE171',
+26 silly get     vary: 'Accept' } ]
+27 verbose get saving connect-redis to /home/claudiainbytes/.npm/registry.npmjs.org/connect-redis/.cache.json
+28 silly rollbackFailedOptional Starting
+29 silly rollbackFailedOptional Finishing
+30 silly runTopLevelLifecycles Starting
+31 silly runTopLevelLifecycles Finishing
+32 silly install printInstalled
+33 verbose stack Error: ENOENT: no such file or directory, open '/home/claudiainbytes/Documentos/ejerciciosnode/ejercicio1/–save'
+33 verbose stack     at Error (native)
+34 verbose cwd /home/claudiainbytes/Documentos/ejerciciosnode/ejercicio1
+35 error Linux 3.19.0-28-generic
+36 error argv "/usr/bin/nodejs" "/usr/bin/npm" "install" "connect-redis" "–save"
+37 error node v4.1.1
+38 error npm  v3.3.3
+39 error path /home/claudiainbytes/Documentos/ejerciciosnode/ejercicio1/–save
+40 error code ENOENT
+41 error errno -2
+42 error syscall open
+43 error enoent ENOENT: no such file or directory, open '/home/claudiainbytes/Documentos/ejerciciosnode/ejercicio1/–save'
+43 error enoent This is most likely not a problem with npm itself
+43 error enoent and is related to npm not being able to find a file.
+44 verbose exit [ -2, true ]

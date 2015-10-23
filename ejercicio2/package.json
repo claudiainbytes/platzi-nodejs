@@ -1,0 +1,27 @@
+{
+  "name": "popstars",
+  "version": "1.0.0",
+  "description": "Base de datos artistas",
+  "main": "artistaspop.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Claudia",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "modulos"
+  },
+  "dependencies": {
+    "lodash": "^3.10.1",
+    "spotify-metadata-search": "^0.0.8"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5"
+  },
+  "keywords": [
+    "best",
+    "music",
+    "pop"
+  ]
+}
