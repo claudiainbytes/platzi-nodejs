@@ -6,11 +6,11 @@
     <link rel='stylesheet' href='../stylesheets/style.css' />
   </head>
   <body>
-    <h1>Artistas</h1>
-    <ul>
-    <% artistas.forEach(function(artista){ %>
-    	<li><a href="artistas/<%= artista._id %>"><%= artista.name %></a></li>
-    <% }); %>
-    </ul>
+    <h1>Agregar artista</h1>
+    <form method="POST" action="/artistas">
+    	<input type="text" name="name">
+    	<input type="submit" >
+    </form>
+    <a href="/">Regresar</a>
   </body>
 </html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta chartset="UTF-8">
+    <title>Sfotify - The Best Artists</title>
+    <link rel='stylesheet' href='../stylesheets/style.css' />
+  </head>
+  <body>
+    <h1><%= artista.name %></h1>
+    <h2>Albums</h2>
+    <ul>
+    <% artista.albums.forEach(function(album){ %>
+        <li>
+	        <ul>
+	    	<li>Title:  <%= album.title %> </li>
+	    	<li>Year: <%= album.year %></li>
+	    	<li><img src="/images/<%= album.image %>.jpg"/></li>
+	    	</ul>
+    	</li>
+    <% }); %>
+    </ul>
+    <h2>Shows</h2>
+    <ul>
+    <% artista.shows.forEach(function(show){ %>
+    	<li><%= show.city %></a></li>
+    <% }); %>
+    </ul>
+    <a href="/">Regresar</a>
+  </body>
+</html>
